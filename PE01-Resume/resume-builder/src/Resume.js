@@ -68,7 +68,7 @@ function Resume() {
             Built a personal website using React and deployed it on GitHub pages
           </p>
           <p>
-            source code: https://github.com/studentname/personal-website
+            source code: <a href = "https://github.com/studentname/personal-website" > github.com/studentname/personal-website</a>
           </p>
         </li>
         <li>
@@ -77,7 +77,7 @@ function Resume() {
             Developed a web application for an online bookstore using Spring Boot and MySQL
           </p>
           <p>
-            source code: https://github.com/studentname/Online-bookstore
+            source code: <a href = "https://github.com/studentname/Online-bookstore" > github.com/studentname/Online-bookstore </a>
           </p>
         </li>
         {/* Add more projects as needed */}
