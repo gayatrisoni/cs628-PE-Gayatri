@@ -1,0 +1,45 @@
+.MovieList {
+    
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .MovieList h1 {
+    text-align: center;
+  }
+  
+  .MovieList select {
+    margin-left: 10px;
+  }
+  
+  .MovieList ul {
+    list-style-type: none;
+    padding: 5;
+  }
+  
+  .MovieList li {
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    padding: 3px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    width: 500px; 
+  }
+
+  .MovieList li h3 {
+    margin: 7px 0; /* Adjust the margin to decrease spacing between title, genre, and year */
+  }
+
+  .MovieList li p {
+    margin: 5px 0; /* Adjust the margin to decrease spacing between title, genre, and year */
+  }
+  
+  
+  .MovieList li:hover {
+    background-color: #e0e0e0;
+  }
+  
