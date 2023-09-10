@@ -27,6 +27,7 @@ The program processes the input data and it utilizes React's stateful components
 # Output:
 The program renders the list of movies as separate movie cards. Each card displays the movie title, genre, and release year in a neatly arranged format. The movie cards are centered on the page but start from the left side, When the user clicks on a movie, an alert displays the movie title.
 
+
 # PE05-
 # Recipe React Application 
 
