@@ -32,13 +32,13 @@ The program renders the list of movies as separate movie cards. Each card displa
 # Recipe React Application 
 
 # Input:
-The application is designed to manage recipes. The inputs are provided through user interface where user can enter new recipe and view existing reipe. To create a new recipe, user need to enter details like rcipe name, Image url, Ingredients, Instructions etc. Uer can modify existing by editing recipe details. Furthermore, user can delete a recipe using delete button. 
+The application is designed to manage recipes. The inputs are provided through user interface where user can enter new recipe and view existing reipe. To create a new recipe, user need to enter details like recipe name, Image url, Ingredients, Instructions etc. User can modify existing recipe details by editing recipe details. Furthermore, user can delete a recipe using delete button. 
 
 # Process:
-The program utilizes a react based front end for user interface and express based backend server to handle data management. The server used mongoDB database to store and retrive recipe information. We routes handle various http request to interact with database. the programe send a request to the server while adding or editing recipe, which then stores and update the recipe information in database and the programecfetches data from the server and render the information in the user interface when viewing recipes.
+The program utilizes a react based front end for user interface and express based backend server to handle data management. The server used mongoDB database to store and retrive recipe information and routes handle various http request to interact with database. the programe send a request to the server while adding or editing recipe, which then stores and update the recipe information in database and then programe fetches data from the server and render the information in the user interface when viewing recipes.
 
 # Output:
-The programe provides output in the form user can interact with the application, where user can see list of recipe, add recipe, modify and  existing recipe, delete recipe. User can see detaile of each recipe like name, Image url, ingredient, instruction. The prograe also send aler while performing operation like editing, adding recipe.
+The programe provides output in the form user can interact with the application, where user can see list of recipe, add recipe, modify  existing recipe and delete recipe. User can see details of each recipe like name, Image url, ingredient, instruction. The prograe also send alert while performing operation like editing, adding recipe.
 
 
 
